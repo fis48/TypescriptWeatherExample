@@ -1,3 +1,4 @@
+
 // Style import
 import './styles/main.scss';
 

@@ -38,16 +38,10 @@ export const updateInteface = (weather: WeatherResponse) :void => {
         windElement.innerHTML = windStr;
     }
 
+    console.log(data.weather[0].icon);
+    console.log(WeatherIcon["04n"]);
 
-    // const main:Main = {
-    //     temp: data.main.temp
-    // }
-    
-
-
-    console.warn("????", WeatherIcon["04n"]);
-
-    // changeWeatherIcon(WeatherIcon["04n"]);
+    changeWeatherIcon(data.weather[0].icon);
 
 }
 
